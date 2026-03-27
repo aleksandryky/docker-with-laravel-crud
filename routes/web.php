@@ -11,4 +11,8 @@ Route::get('/about', function () {
     return view('about');
 })->name('about');
 
+Route::get('/state', function () {
+    return view('state');
+})->name('state');
+
 Route::post('/leads', [LeadController::class, 'store'])->name('leads.store');

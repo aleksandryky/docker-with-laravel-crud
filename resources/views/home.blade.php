@@ -167,6 +167,7 @@
             <div class="logo">Obscura-X Certification Consulting</div>
             <ul class="nav-links">
                 <li><a href="{{ route('about') }}">About Us</a></li>
+                <li><a href="{{ route('state') }}">State</a></li>
                 <li><a href="#services">Our Process</a></li>
                 <li><a href="#resources">Resources</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -316,8 +317,9 @@
                 </div>
                 <div>
                     <h4>Quick Links</h4>
-                    <a href="#">Home</a><br>
+                    <a href="{{ url('/') }}">Home</a><br>
                     <a href="{{ route('about') }}">About Us</a><br>
+                    <a href="{{ route('state') }}">State</a><br>
                     <a href="#services">Our Process</a><br>
                     <a href="#contact">Contact</a>
                 </div>

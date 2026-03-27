@@ -145,6 +145,7 @@
             <ul class="nav-links">
                 <li><a href="{{ url('/') }}">Home</a></li>
                 <li><a href="{{ route('about') }}">About Us</a></li>
+                <li><a href="{{ route('state') }}">State</a></li>
                 <li><a href="{{ url('/#services') }}">Certification</a></li>
                 <li><a href="{{ url('/#services') }}">Our Process</a></li>
                 <li><a href="{{ url('/#resources') }}">Blog</a></li>
@@ -269,6 +270,7 @@
                     <h4>Quick Links</h4>
                     <a href="{{ url('/') }}">Home</a><br>
                     <a href="{{ route('about') }}">About Us</a><br>
+                    <a href="{{ route('state') }}">State</a><br>
                     <a href="{{ url('/#services') }}">Our Process</a><br>
                     <a href="{{ url('/#contact') }}">Contact</a>
                 </div>
